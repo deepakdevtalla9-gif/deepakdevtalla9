@@ -1,0 +1,14 @@
+[
+    {
+        "student_id": "101",
+        "name": "Aman",
+        "course": "BCA",
+        "marks": "85"
+    },
+    {
+        "student_id": "102",
+        "name": "Riya",
+        "course": "BCA",
+        "marks": "92"
+    }
+]
