@@ -1,15 +1,70 @@
- 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Deepak Devtalla) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_deepak8485) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Deepak Devtalla) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:deepakdevtalla9@gmail.com) 
+# Python Module 02: Functions, Files & Exception Handling
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Deepak Devtalla&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Deepak Devtalla&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Deepak Devtalla&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+This repository contains beginner-friendly Python examples for Module 02 (Day 6–Day 10).
 
----
-[![](https://komarev.com/ghpvc/?username=Deepak Devtalla&icon=0&color=0)](https://visitcount.itsvg.in)
+## Topics covered
+- Functions, parameters, return values
+- Lambda functions and list comprehensions
+- File handling with CSV and JSON
+- Exception handling with `try`, `except`, and `finally`
+- Basic debugging practices
+- Python virtual environments
+- Student Record Management System with CRUD operations
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Project: Student Record Management System
+The program lets you:
+1. Add a student
+2. View all students
+3. Search for a student by ID
+4. Update a student record
+5. Delete a student record
+6. Choose CSV or JSON as the storage format
+
+## Requirements
+- Python 3.9 or newer
+- No third-party packages required
+
+## Run the project
+Open a terminal in this repository folder and run:
+
+```bash
+python student_record_system/main.py
+```
+
+On some Windows systems, use `py` instead of `python`.
+
+## Example data
+The application creates its data file when you add a record. Sample CSV and JSON files are included in `student_record_system/sample_data/`.
+
+## Virtual environment (optional)
+```bash
+python -m venv .venv
+```
+Activate it:
+- Windows PowerShell: `.venv\Scripts\Activate.ps1`
+- macOS/Linux: `source .venv/bin/activate`
+
+Deactivate it with:
+```bash
+deactivate
+```
+
+## Repository structure
+```text
+Python_Module_02_Functions_Files_Exception_Handling/
+├── README.md
+├── examples/
+│   ├── functions_examples.py
+│   ├── file_handling_examples.py
+│   └── exception_examples.py
+├── notes/
+│   └── learning_notes.md
+└── student_record_system/
+    ├── main.py
+    └── sample_data/
+        ├── students.csv
+        └── students.json
+```
+
+## Learning note
+This project is for practice. Test each menu option and read the code to understand how each operation works.
